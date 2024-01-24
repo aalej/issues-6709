@@ -1,5 +1,10 @@
 # Repro for Firebase Tools issue 6709
 
+## Versions
+
+firebase-tools: v13.0.3<br>
+node: v18.18.0
+
 ## Steps to reproduce the issue
 
 1. Install dependencies
@@ -14,6 +19,7 @@
 1. It does not connect the debugger
    - Tried running "npm i node@18.0.0 --save-dev" in the functions directory,
      no changes in behavior
+   - Running `lsof -ti tcp:9229` returns blank
 
 ## Notes
 
