@@ -6,7 +6,7 @@
    - cd `functions`
    - cd `npm install`
 1. If you have `firebase-tools` installed via NPM, uninstall it
-   - Alternatively, run `bash bash scripts/use-firepit.sh` to install `firebase-tools` via curl
+   - Alternatively, run `bash scripts/use-firepit.sh` to install `firebase-tools` via curl
 1. Install `firebase-tools` via `curl -sL https://firebase.tools | bash`
 1. Run `firebase emulators:start --only functions --inspect-functions --project demo-project`
 1. On VS Code, click the "Run and Debug icon" on the side bar
@@ -21,7 +21,7 @@ Trying this out using the `firebase-tools` installed via NPM works as expected
 
 1. If you have `firebase-tools` installed via curl, uninstall it
 1. Install `firebase-tools` via `npm install -g firebase-tools`
-   - Alternatively, run `bash bash scripts/use-npm.sh` to install `firebase-tools` via NPM
+   - Alternatively, run `bash scripts/use-npm.sh` to install `firebase-tools` via NPM
 1. Run `firebase emulators:start --only functions --inspect-functions --project demo-project`
 1. On VS Code, click the "Run and Debug icon" on the side bar
 1. On the top left corner, click "Debug" play button
